@@ -6,10 +6,10 @@ Feautures:
 -redirect output of command to file  
 -append output of command to file  
 -redirect file to input of a command  
--supports some internal commands such as cd, echo, pwd, though it does not support them all  
+-supports some internal commands such as cd, echo, pwd, though it does not support all of them  
 
 **Some examples**  
-It has a bultin help asseccible by the typing 'help'
+It has a bultin help asseccible by typing 'help'
 ![bandicam 2018-06-26 13-29-20-004](https://user-images.githubusercontent.com/37183688/41937889-696b75b6-7946-11e8-818e-a32b9da75f51.jpg)
 
 Output redirection:  
