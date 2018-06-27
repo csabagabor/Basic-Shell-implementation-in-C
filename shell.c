@@ -71,7 +71,7 @@ void executeBasic(char** argv){
 	}
 	else{
 		//child
-		execvp(argv[0],(char **)argv);
+		execvp(argv[0],argv);
 		//in case exec is not successfull, exit
 		perror(ANSI_COLOR_RED   "invalid input"   ANSI_COLOR_RESET "\n");
 		exit(1);
@@ -81,7 +81,9 @@ void executeBasic(char** argv){
 /*
 loads and executes a series of external commands that are piped together
 */
-void executePiped(char** buf,int nr){
+void executePiped(char** buf,int nr){//can support up to 10 piped commands
+	if(nr>10) return;
+	
 	int fd[10][2],i,pc;
 	char *argv[100];
 
@@ -161,9 +163,9 @@ void executeRedirect(char** buf,int nr,int mode){
 		}
 
 		switch(mode){
-		case INPUT:  		dup2(fd,0);; break;
-		case OUTPUT: 		dup2(fd,1);; break;
-		case APPEND: 		dup2(fd,1);; break;
+		case INPUT:  		dup2(fd,0); break;
+		case OUTPUT: 		dup2(fd,1); break;
+		case APPEND: 		dup2(fd,1); break;
 		default: return;
 		}
 		execvp(argv[0],argv);
@@ -237,10 +239,10 @@ int main(char** argv,int argc)
 			if(strstr(params1[0],"cd")){//cd builtin command
 				chdir(params1[1]);
 			}
-			else if(strstr(params1[0],"help")){//cd builtin command
+			else if(strstr(params1[0],"help")){//help builtin command
 				showHelp();
 			}
-			else if(strstr(params1[0],"exit")){//cd builtin command
+			else if(strstr(params1[0],"exit")){//exit builtin command
 				exit(0);
 			}
 			else executeBasic(params1);
