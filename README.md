@@ -1,12 +1,12 @@
 # Basic Shell implementation in C
 Basic Shell implementation in `C`  
-Feautures:  
--piped commands(more than 1 pipe allowed)  
--asyncronous commands(more than 2 asyncronous commands allowed)  
--redirect output of command to file  
--append output of command to file  
--redirect file to input of a command  
--supports some internal commands such as `cd`, `echo`, `pwd`, though it does not support all of them  
+**Feautures: ** 
+- piped commands(more than 1 pipe allowed)  
+- asyncronous commands(more than 2 asyncronous commands allowed)  
+- redirect output of command to file  
+- append output of command to file  
+- redirect file to input of a command  
+- supports some internal commands such as `cd`, `echo`, `pwd`, though it does not support all of them  
 
 **Some examples**  
 It has a bultin help accessible by typing `help`
