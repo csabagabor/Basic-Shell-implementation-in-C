@@ -1,6 +1,6 @@
 # Basic Shell implementation in C
 Basic Shell implementation in `C`  
-**Feautures: ** 
+**Feautures:** 
 - piped commands(more than 1 pipe allowed)  
 - asyncronous commands(more than 2 asyncronous commands allowed)  
 - redirect output of command to file  
