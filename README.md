@@ -1,15 +1,15 @@
-# Basic-Shell-implementation-in-C
-Basic Shell implementation in C  
+# Basic Shell implementation in C
+Basic Shell implementation in `C`  
 Feautures:  
 -piped commands(more than 1 pipe allowed)  
 -asyncronous commands(more than 2 asyncronous commands allowed)  
 -redirect output of command to file  
 -append output of command to file  
 -redirect file to input of a command  
--supports some internal commands such as cd, echo, pwd, though it does not support all of them  
+-supports some internal commands such as `cd`, `echo`, `pwd`, though it does not support all of them  
 
 **Some examples**  
-It has a bultin help accessible by typing 'help'
+It has a bultin help accessible by typing `help`
 ![bandicam 2018-06-26 13-29-20-004](https://user-images.githubusercontent.com/37183688/41937889-696b75b6-7946-11e8-818e-a32b9da75f51.jpg)
 
 Output redirection:  
@@ -28,7 +28,7 @@ Basic example with 2 piped commands:
 ![bandicam 2018-06-26 13-30-08-132](https://user-images.githubusercontent.com/37183688/41937893-6a000cf8-7946-11e8-95bd-0e8792d62875.jpg)  
 2 Asyncronous commands:  
 ![bandicam 2018-06-26 13-31-02-726](https://user-images.githubusercontent.com/37183688/41937895-6a8615b4-7946-11e8-9790-cc0bcc5a59b6.jpg)  
-Usage of cd :  
+Usage of `cd` :  
 ![bandicam 2018-06-26 13-31-22-979](https://user-images.githubusercontent.com/37183688/41937896-6ab5cb38-7946-11e8-8bd3-2989c5e63e1c.jpg)  
 Creating files and directories and deleting them works as well:  
 ![bandicam 2018-06-26 13-32-27-818](https://user-images.githubusercontent.com/37183688/41937897-6ae5c202-7946-11e8-9d8a-d73172213974.jpg)  
