@@ -9,7 +9,7 @@ Basic Shell implementation in `C`
 - supports some internal commands such as `cd`, `echo`, `pwd`, though it does not support all of them  
 
 **Some examples**  
-It has a bultin help accessible by typing `help`
+It has a bultin help menu accessible by typing `help`
 ![bandicam 2018-06-26 13-29-20-004](https://user-images.githubusercontent.com/37183688/41937889-696b75b6-7946-11e8-818e-a32b9da75f51.jpg)
 
 Output redirection:  
