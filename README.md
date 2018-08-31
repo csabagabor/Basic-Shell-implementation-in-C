@@ -20,7 +20,7 @@ Input redirection:
 ![bandicam 2018-06-26 13-34-44-556](https://user-images.githubusercontent.com/37183688/41937886-68d47b20-7946-11e8-9177-37c94651e3a4.jpg)  
 pwd works as expected:  
 ![bandicam 2018-06-26 13-35-02-608](https://user-images.githubusercontent.com/37183688/41937887-690768aa-7946-11e8-8f9f-79f45096bc43.jpg)  
-To exit the program, type 'exit'..  
+To exit the program, type `exit`..  
 ![bandicam 2018-06-26 13-35-09-015](https://user-images.githubusercontent.com/37183688/41937888-69352308-7946-11e8-9789-487eeb79b041.jpg)  
 Simple external command:  
 ![bandicam 2018-06-26 13-29-44-909](https://user-images.githubusercontent.com/37183688/41937890-69d40522-7946-11e8-88e7-a86003d17fd3.jpg)  
